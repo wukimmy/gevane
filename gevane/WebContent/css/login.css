@@ -1,0 +1,35 @@
+.title{
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 5%;
+    align-items: center;
+	align-content: center;
+    background-color: rgb(101, 189, 196);
+    color:white;
+    border-radius: 25px;
+    font-size: 210%;
+    border-bottom: 20px solid rgb(101, 189, 196);
+    border-top: 20px solid rgb(101, 189, 196);
+    border-left: 10px solid rgb(101, 189, 196);
+    width: 60%;
+}
+.login{
+    margin-top: 5%
+}
+.campos{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    border: 2px solid rgb(101, 189, 196);
+    border-radius: 5px;
+    width: 60%;
+}
+.cont{
+    margin-left: 10%
+}
+
+body {
+    background-image: url("../images/fundo.jpg ");
+    background-color: #cccccc;
+ }
