@@ -1,11 +1,11 @@
-/*
-
-Edming Admin Template
-EGrappler.com
-All Rights Reserved.
-
-*/
-
+.banner{
+	align-items: center;
+	align-content: center;
+	background-color: rgb(167, 219, 223);
+}
+img{
+	margin-left: 10%;
+}
 body {
 	font-size: 13px;
 	font-family: 'Open Sans', Arial, sans-serif;
