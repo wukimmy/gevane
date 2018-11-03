@@ -3,11 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gevane - Estoque</title>
+    <title>Gevane - Produto</title>
     <link type="text/css" href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link type="text/css" href="./css/theme.css" rel="stylesheet">
-    <link type="text/css" href="./css/estoque.css" rel="stylesheet">
+    <link type="text/css" href="./css/venda.css" rel="stylesheet">
     <link type="text/css" href="./images/icons/css/font-awesome.css" rel="stylesheet">
     <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
 </head>
@@ -76,13 +76,6 @@
                                 <a href="usuario.html">
                                     <i class="menu-icon icon-inbox"></i>Usuários </a>
                             </li>
-                            <li>
-                                <a href="produto.html">
-                                    <b class="label green">
-                                        Novo Produto 
-                                    </b>
-                                    </a>
-                            </li>
                         </ul>
 
                     </div>
@@ -90,60 +83,24 @@
                 </div>
                 <!--/.span3-->
                 <div class="span9">
-                    <h1>Estoque:</h1>
-                    <form>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Produto</th>
-                                    <th>Quantidade atual</th>
-                                    <th>Quantidade mínima</th>
-                                    <th>Código de barras</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Chocolate Wonka<dtr>
-                                    <td>100</td>
-                                    <td>5</td>
-                                    <td>0987654323456789</td>
-                                    <td><i class="fa fa-pencil" aria-hidden="true"></i><a href="produto.html">Editar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Chocolate Wonka<dtr>
-                                    <td>100</td>
-                                    <td>5</td>
-                                    <td>0987654323456789</td>
-                                    <td><i class="fa fa-pencil" aria-hidden="true"></i><a href="produto.html">Editar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Chocolate Wonka<dtr>
-                                    <td>100</td>
-                                    <td>5</td>
-                                    <td>0987654323456789</td>
-                                    <td><i class="fa fa-pencil" aria-hidden="true"></i><a href="produto.html">Editar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>Chocolate Wonka<dtr>
-                                    <td>100</td>
-                                    <td>5</td>
-                                    <td>0987654323456789</td>
-                                    <td><i class="fa fa-pencil" aria-hidden="true"></i><a href="produto.html">Editar</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </form>
-                    <!--/.content-->
-                </div>
-                <!--/.span9-->
+                        <div class="img">
+                            <img src="./images/estoque.jpg">
+                        </div>
+                        <form>
+                            <h1>Produto</h1>
+                            <label for="">Codigo de barras</label>
+                            <input type="text">
+                            <label for="">Nome do produto</label>
+                            <input type="text">
+                            <label for="">Quantidade atual</label>
+                            <input type="number">
+                            <label for="">Quantidade mínima</label>
+                            <input type="number">
+                            <br>
+                            <button type="button" class="btn btn-success">Salvar</button>
+                        </form>
+                    </div>
             </div>
-        </div>
-        <!--/.container-->
-    </div>
-    <!--/.wrapper-->
-    <div class="footer">
-        <div class="container">
-            <b class="copyright">&copy; 2018 Bruno Sudré e Kimmy Wu </b>All rights reserved.
         </div>
     </div>
 </body>
