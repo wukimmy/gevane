@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 
 <head>
@@ -19,7 +21,7 @@
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
                     <i class="icon-reorder shaded"></i>
                 </a>
-                <a class="brand" href="index.html">Gevane </a>
+                <a class="brand" href="index.jsp">Gevane </a>
                 <div class="nav-collapse collapse navbar-inverse-collapse">
                     <form class="navbar-search pull-left input-append" action="#">
                         <input type="text" class="span3">
@@ -33,17 +35,17 @@
                                 Menu</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="venda.html">Vendas</a>
+                                    <a href="venda.jsp">Vendas</a>
                                 </li>
                                 <li>
-                                    <a href="usuario.html">Usuarios</a>
+                                    <a href="usuario.jsp">Usuarios</a>
                                 </li>
                                 <li>
-                                    <a href="./estoque.html">Estoque</a>
+                                    <a href="./estoque.jsp">Estoque</a>
                                 </li>
                                 <li class="divider"></li>
                                 <li>
-                                    <a href="#">Logout</a>
+                                    <a href="./logout.html">Logout</a>
                                 </li>
                             </ul>
                         </li>
@@ -62,22 +64,22 @@
                     <div class="sidebar">
                         <ul class="widget widget-menu unstyled">
                             <li class="active">
-                                <a href="estoque.html">
+                                <a href="estoque.jsp">
                                     <i class="menu-icon icon-dashboard"></i>Estoque
                                     <b class="label green pull-right">
                                     </b>
                                 </a>
                             </li>
                             <li>
-                                <a href="venda.html">
+                                <a href="venda.jsp">
                                     <i class="menu-icon icon-bullhorn"></i>Vendas </a>
                             </li>
                             <li>
-                                <a href="usuario.html">
-                                    <i class="menu-icon icon-inbox"></i>Usuários </a>
+                                <a href="usuario.jsp">
+                                    <i class="menu-icon icon-inbox"></i>Usuarios</a>
                             </li>
                             <li>
-                                <a href="produto.html">
+                                <a href="produto.jsp">
                                     <b class="label green">
                                         Novo Produto 
                                     </b>
@@ -97,7 +99,7 @@
                                 <tr>
                                     <th>Produto</th>
                                     <th>Quantidade atual</th>
-                                    <th>Quantidade mínima</th>
+                                    <th>Quantidade m�xima</th>
                                     <th>Código de barras</th>
                                 </tr>
                             </thead>
@@ -143,7 +145,7 @@
     <!--/.wrapper-->
     <div class="footer">
         <div class="container">
-            <b class="copyright">&copy; 2018 Bruno Sudré e Kimmy Wu </b>All rights reserved.
+            <b class="copyright">&copy; 2018 Bruno Sudre e Kimmy Wu </b>All rights reserved.
         </div>
     </div>
 </body>
