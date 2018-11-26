@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="gevane/gevane/gevane/src"/>
+	<classpathentry kind="src" path="gevane/src"/>
+	<classpathentry kind="lib" path="gevane/gevane/gevane/lib/mariadb-java-client-2.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="gevane/gevane/gevane/lib/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="gevane/gevane/lib/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="gevane/lib/mariadb-java-client-2.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="gevane/lib/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="output" path="gevane/gevane/gevane/build/classes"/>
+</classpath>
